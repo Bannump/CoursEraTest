@@ -1,0 +1,103 @@
+
+.my-nav{
+    background-color: grey;
+}
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+#top{
+    text-align: center;
+}
+#services{
+  align-items: center;
+  position: absolute;
+  padding:10px;
+
+}
+
+.sider{
+  position: relative;
+  text-align: center;
+  margin: 0px;
+}
+.box{
+  background-color: gray;
+}
+.nav-item{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background-color: azure;
+  border: 1px solid black;
+  
+}
+#navin{
+  border: 1px solid black;
+}
+#navin:active{
+  background-color: azure;
+  border: 1px solid white;
+  border: 0px;
+}
+#navin:hover{
+  background-color: aliceblue;
+}
+.nav-new{
+  margin: 0%;
+}
+.mobile{
+  padding: 0%;
+  margin: 0%;}
+@media  (min-width: 767.98px) {
+  .box{
+  margin: 3%;
+  border: 2px solid black;
+  float: left;
+  width: 26%;
+
+  }
+  .nav-new{
+    visibility: hidden;
+  }
+  .mobile{
+    visibility: hidden;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #box1,#box2{
+  margin: 4%;
+  border: 2px solid black;
+  float: left;
+  width:40%
+  }
+  #box3{
+    height: 20%;
+    border: 2px solid black;
+    float: left;
+    margin-left: 4%;
+    margin-right: 7%;
+  }
+  .nav-new{
+    visibility: hidden;
+  }
+  .mobile{
+    visibility: hidden;
+  }
+  
+}
+@media  (max-width: 767px) {
+  .box{
+  margin: 3%;
+  border: 2px solid black;
+  
+
+  }
+  
+  
+}
+
+
+
